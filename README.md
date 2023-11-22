@@ -147,3 +147,28 @@
     </WrapPanel>
 </Window>
 
+
+
+
+
+
+<Window x:Class="Wprowadzenie.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wprowadzenie"
+        mc:Ignorable="d"
+        Title="Window4" Height="450" Width="800">
+    <DockPanel>
+        <Button Padding="20">1</Button>
+        <Button DockPanel.Dock="Bottom">2</Button>
+        <Button>3</Button>
+        <Button DockPanel.Dock="Bottom">4</Button>
+        <Button>5</Button>
+        <Button DockPanel.Dock="Top">6</Button>
+        <Button DockPanel.Dock="Right">7</Button>
+        <Button>Ostatni</Button>
+    </DockPanel>
+</Window>
+
