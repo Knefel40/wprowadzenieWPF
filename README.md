@@ -113,3 +113,37 @@
     </Grid>
 </Window>
 
+
+
+
+
+<Window x:Class="Wprowadzenie.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wprowadzenie"
+        mc:Ignorable="d"
+        Title="Window3" Height="450" Width="800">
+    <WrapPanel Orientation="Vertical">
+        <!--
+        domyslnie horizontal
+        po zmianie rozmiaru okna responsywnie zmienia sie uklad
+        -->
+        <Button>12</Button>
+        <Button>12</Button>
+        <Button>13</Button>
+        <Button>14</Button>
+        <Button>14</Button>
+        <Button>15</Button>
+        <Button>16</Button>
+        <Button>17</Button>
+        <Button>18</Button>
+        <Button>19</Button>
+        <Button>10</Button>
+        <Button>20</Button>
+        <Button>21</Button>
+        <Button></Button>
+    </WrapPanel>
+</Window>
+
