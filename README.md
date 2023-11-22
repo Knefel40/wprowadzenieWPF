@@ -172,3 +172,84 @@
     </DockPanel>
 </Window>
 
+
+
+
+
+<Window x:Class="Wprowadzenie.Window5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wprowadzenie"
+        mc:Ignorable="d"
+        Title="Window5" Height="450" Width="800">
+    <DockPanel>
+        <Button>1</Button>
+        <Button>2</Button>
+        <Button>3</Button>
+        <Button>4</Button>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal">
+                <Button Margin="10">1</Button>
+                <Button Margin="10">1</Button>
+                <Button Margin="10">1</Button>
+                <Button Margin="10">1</Button>
+            </StackPanel>
+
+            <UniformGrid Grid.Row="1" Grid.Column="2">
+                <Button>1</Button>
+                <Button>1</Button>
+                <Button>1</Button>
+                <Button>1</Button>
+                <Button>1</Button>
+                <Button>1</Button>
+            </UniformGrid>
+
+            <StackPanel Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2">
+                <Button>1</Button>
+                <Button>1</Button>
+                <Button>1</Button>
+                <Button>1</Button>
+                <Button>1</Button>
+                <Button>1</Button>
+            </StackPanel>
+
+            <WrapPanel Grid.Column="1">
+                <Button>1</Button>
+                <Button>1</Button>
+                <Button>1</Button>
+                <Button>1</Button>
+                <Button>1</Button>
+                <Button>1</Button>
+                <Button>1</Button>
+                <Button>1</Button>
+                <Button>1</Button>
+                <Button>1</Button>
+                <Button>1</Button>
+                <Button>1</Button>
+            </WrapPanel>
+
+            <UniformGrid Grid.Column="2" Rows="2">
+                <Button Margin="10">2</Button>
+                <Button Margin="10">2</Button>
+                <Button Margin="10">2</Button>
+                <Button Margin="10">2</Button>
+                <Button Margin="10">2</Button>
+                <Button Margin="10">2</Button>
+                <Button Margin="10">2</Button>
+                <Button Margin="10">2</Button>
+            </UniformGrid>
+        </Grid>
+    </DockPanel>
+</Window>
